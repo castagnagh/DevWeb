@@ -1,2 +1,2 @@
 # DevWeb
- University exercises
+ Exercises developed together with the discipline of Web Development
