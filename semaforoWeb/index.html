@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo</title>
+    <script type="text/javascript" src="scripts/controleSemaforo.js"></script>
+    <style>
+        body {text-align: center;}
+    </style>
+</head>
+
+<body>
+    <h1>Controle do Manual do Semáforo:</h1>
+    <div id="painel">
+        <p> <img src="imagens/amarelo.png" width="140"></p>
+    </div>
+    <div id="controle">
+
+        <p><button id="botao" onclick="vermelhoCor()">Vermelho</button<br>
+        </p>
+        <p><button id="botao" onclick="amareloCor()">Amarelo</button<br>
+        </p>
+        <p><button id="botao" onclick="verdeCor()">Verde</button<br>
+        </p>
+    </div>
+
+    <p>Deseja ver o controle automático do sinal?</p>
+    <a href="controleauto.html"><button id="botao">SIM</button></a>
+</body>
+
+</html>
